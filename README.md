@@ -1,5 +1,5 @@
 # Geode
-A Minecraft datapack library focused on adding tools for datapackers to make it easier to add fully custom content to the game.
+A Minecraft datapack library focused on adding tools for datapackers to make it easier to add custom content to the game.
 
 ### BlockCore deprecation notice:
 
