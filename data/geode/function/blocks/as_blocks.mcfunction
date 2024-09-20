@@ -1,0 +1,1 @@
+execute as @s[tag=geode.custom_block] run function geode:/blocks/block_code/tick with entity @s item.components.minecraft:custom_data

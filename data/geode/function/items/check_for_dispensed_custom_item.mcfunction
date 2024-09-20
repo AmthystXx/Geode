@@ -1,0 +1,1 @@
+execute as @e[tag=geode.dispensed_item] at @s run function geode:items/dispense_custom_item with entity @s Item.components.minecraft:custom_data
