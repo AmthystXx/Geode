@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=geode.custom_block] at @s run function geode:blocks/as_blocks

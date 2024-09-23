@@ -1,1 +1,0 @@
-$execute unless block ~ ~ ~ $(base_block) run function geode:blocks/block_code/break with entity @s item.components.minecraft:custom_data
