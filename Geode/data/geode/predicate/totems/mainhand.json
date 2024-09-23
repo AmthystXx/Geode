@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": "minecraft:totem_of_undying",
+          "predicates": {
+            "minecraft:custom_data": {"geode":"custom_totem"}
+          }
+        }
+      }
+    }
+  }

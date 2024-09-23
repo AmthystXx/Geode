@@ -1,0 +1,1 @@
+$tp @s $(geode_player)

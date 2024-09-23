@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {"geode":"custom_totem"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "geode:totems/used_totem"
+  }
+}

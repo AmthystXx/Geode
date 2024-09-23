@@ -1,0 +1,20 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.*": {
+            "components": {
+              "minecraft:can_break": {
+                "geode": "#custom_item"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]
