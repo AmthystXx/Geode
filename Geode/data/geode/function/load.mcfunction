@@ -1,3 +1,5 @@
 scoreboard objectives add geode_totem_timer dummy
+scoreboard objectives add geode_totem_mainhand_switch_timer dummy
+scoreboard objectives add geode_totem_offhand_switch_timer dummy
 scoreboard objectives add geode_arbitrary_ids dummy
 scoreboard players add i geode_arbitrary_ids 0
