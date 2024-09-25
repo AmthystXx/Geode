@@ -1,2 +1,2 @@
-$loot spawn ~ ~ ~ loot $(pack_name):$(item)
+$loot spawn ~ ~ ~ loot $(id)
 kill @s
