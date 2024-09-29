@@ -1,0 +1,1 @@
+execute store result storage geode:arbitrary_player_data temp.id int 1 run scoreboard players get @s geode_arbitrary_ids

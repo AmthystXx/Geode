@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {"geode":"right_click"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "geode:right_click/right_click"
+  }
+}
