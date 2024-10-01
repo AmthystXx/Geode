@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\":\"geode test block\"}",
+                  "minecraft:custom_model_data": 0,
+                  "minecraft:entity_data": {
+                    "id": "minecraft:marker",
+                    "Tags": ["geode.marker_block"],
+                    "data": {
+                      "pack_name":"geode_examples",
+                      "block":"test_block",
+                      "base_block":"glass",
+                      "custom_model_data":0,
+                      "scalex":1.001,
+                      "scaley":1.001,
+                      "scalez":1.001
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

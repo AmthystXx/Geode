@@ -1,0 +1,23 @@
+
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result": {
+      "id": "wooden_hoe",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"geode test item\"}",
+        "minecraft:can_break": {"geode":"custom_item"}
+      }
+    }
+  }

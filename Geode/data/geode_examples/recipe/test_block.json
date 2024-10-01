@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+          "item": "minecraft:barrier"
+        }
+    ],
+    "result": {
+      "id": "minecraft:allay_spawn_egg",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "{\"text\":\"geode test block\"}",
+        "minecraft:custom_model_data": 0,
+        "minecraft:entity_data": {
+          "id": "minecraft:marker",
+          "Tags": ["geode.marker_block"],
+          "data": {
+                "pack_name":"geode_examples",
+                "block":"test_block",
+                "base_block":"glass",
+                "custom_model_data":0,
+                "scalex":1.001,
+                "scaley":1.001,
+                "scalez":1.001
+          }
+        }
+      }
+    }
+  }

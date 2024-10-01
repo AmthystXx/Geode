@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result": {
+      "id": "minecraft:totem_of_undying",
+      "components": {
+        "minecraft:custom_data": {
+          "geode":"custom_totem",
+          "totem_id":"geode_examples:test_totem"
+        },
+        "minecraft:item_name": "{\"text\":\"geode test totem\"}"
+      }
+    }
+  }

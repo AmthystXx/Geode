@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      },
+      {
+        "item": "minecraft:barrier"
+      }
+    ],
+    "result": {
+      "id": "stick",
+      "components": {
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation": 0,
+          "can_always_eat": true,
+          "eat_seconds": 999999999
+        },
+        "minecraft:item_name": "{\"text\":\"geode test right click item\"}",
+        "minecraft:custom_data": {
+          "geode":"right_click",
+          "right_click_id":"geode_examples:test_right_click_item"
+        }
+      }
+    }
+  }
+  

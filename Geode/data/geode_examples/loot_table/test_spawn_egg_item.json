@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"text\":\"geode test spawn egg item\"}",
+                "minecraft:can_break": {"geode":"custom_item"},
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": ["geode.dispensed_item"],
+                  "data": {"item_id":"geode_examples:test_spawn_egg_item"}
+                }
+              }
+            }         
+          ]
+        }
+      ]
+    }
+  ]
+}

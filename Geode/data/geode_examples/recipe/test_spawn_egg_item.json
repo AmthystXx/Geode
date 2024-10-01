@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:barrier"
+    },
+    {
+      "item": "minecraft:barrier"
+    }
+  ],
+  "result": {
+    "id": "minecraft:armadillo_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"geode test spawn egg item\"}",
+      "minecraft:can_break": {"geode":"custom_item"},
+      "minecraft:entity_data": {
+        "id": "minecraft:marker",
+        "Tags": ["geode.dispensed_item"],
+        "data": {"item_id":"geode_examples:test_spawn_egg_item"}
+      }
+    }
+  }
+}
