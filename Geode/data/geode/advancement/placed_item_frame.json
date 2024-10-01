@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "blockcore:placed_item_frame"
+    "function": "geode:blocks/placed_item_frame"
   }
 }
