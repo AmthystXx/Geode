@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": "minecraft:fishing_rod",
+          "predicates": {
+            "minecraft:custom_data": {"geode":"custom_bobber"}
+          }
+        }
+      }
+    }
+  }
