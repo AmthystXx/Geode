@@ -1,2 +1,0 @@
-execute as @n[type=minecraft:fishing_bobber] at @s run summon item_display ~ ~ ~ {billboard:"center",Tags:["geode.custom_bobber"],item:{id:"minecraft:fishing_rod",count:1,components:{"minecraft:custom_model_data":1}}}
-ride @n[type=minecraft:item_display,tag=geode.custom_bobber] mount @n[type=minecraft:fishing_bobber]
