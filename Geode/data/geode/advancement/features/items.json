@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.*": {
+              "components": {
+            "minecraft:can_break": {
+              "geode": "#custom_item"
+            }
+          }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "geode:features/items"
+  }
+}

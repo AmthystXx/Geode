@@ -1,0 +1,1 @@
+scoreboard players set items geode_features 1

@@ -1,0 +1,1 @@
+scoreboard players set totems geode_features 1

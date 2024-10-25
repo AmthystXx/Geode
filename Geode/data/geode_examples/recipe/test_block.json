@@ -9,31 +9,32 @@
     "id": "minecraft:item_frame",
     "count": 1,
     "components": {
-      "minecraft:item_name": "{\"text\":\"geode test block\"}",
-      "minecraft:custom_model_data": 0,
-      "minecraft:entity_data": {
-        "id": "minecraft:item_frame",
-        "Tags": ["geode.item_frame_block"],
-        "Item": {
-          "id":"minecraft:item_frame",
-          "components":{
-            "minecraft:custom_data": {
-              "pack_name":"geode_examples",
-              "block":"test_block",
-              "base_block":"glass",
-              "custom_model_data":0,
-              "scalex":1.001,
-              "scaley":1.001,
-              "scalez":1.001
-            }
-          }
-        },
-        "Facing": 1,
-        "Fixed": true,
-        "Invisible": true,
-        "Invulnerable": true,
-        "Silent": true
-      }
-    }
+                "minecraft:item_name": "{\"text\":\"geode test block\"}",
+                "minecraft:custom_model_data": 0,
+                "minecraft:custom_data": {"geode":"custom_block"},
+                "minecraft:entity_data": {
+                  "id": "minecraft:item_frame",
+                  "Tags": ["geode.item_frame_block"],
+                  "Item": {
+                    "id":"minecraft:item_frame",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "pack_name":"geode_examples",
+                        "block":"test_block",
+                        "base_block":"glass",
+                        "custom_model_data":0,
+                        "scalex":1.001,
+                        "scaley":1.001,
+                        "scalez":1.001
+                      }
+                    }
+                  },
+                  "Facing": 1,
+                  "Fixed": true,
+                  "Invisible": true,
+                  "Invulnerable": true,
+                  "Silent": true
+                }
+              }
   }
 }

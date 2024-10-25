@@ -1,0 +1,1 @@
+scoreboard players add right_click geode_features 1

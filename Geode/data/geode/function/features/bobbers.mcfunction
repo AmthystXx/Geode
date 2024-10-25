@@ -1,0 +1,1 @@
+scoreboard players set bobbers geode_features 1
