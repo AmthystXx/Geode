@@ -1,1 +1,1 @@
-$execute as @n[type=minecraft:fishing_bobber] at @s run summon item_display ~ ~ ~ {billboard:"center",Tags:["geode.custom_bobber"],item:{id:"$(bobber_item)",count:1,components:{"minecraft:custom_model_data":$(bobber_custom_model_data)}}}
+$execute as @n[type=minecraft:fishing_bobber] at @s run summon item_display ~ ~ ~ {teleport_duration:1,billboard:"center",Tags:["geode.custom_bobber"],item:{id:"$(bobber_item)",count:1,components:{"minecraft:custom_model_data":$(bobber_custom_model_data)}}}
