@@ -1,0 +1,2 @@
+advancement revoke @s only geode:placed_glow_item_frame
+execute as @e[tag=geode.spawner_item_frame_block,distance=..10] at @s run function geode:spawner_blocks/blocks/place_block with entity @s Item.components.minecraft:custom_data

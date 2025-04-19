@@ -1,0 +1,1 @@
+scoreboard players set spawner_blocks geode_features 1

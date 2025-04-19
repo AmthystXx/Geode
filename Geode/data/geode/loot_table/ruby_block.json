@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glow_item_frame"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "{\"text\":\"Ruby Block\"}",
+              "minecraft:custom_model_data": 1200001,
+              "minecraft:entity_data": {
+                "id": "minecraft:glow_item_frame",
+                "Tags": [
+                  "geode.spawner_item_frame_block"
+                ],
+                "Item": {
+                  "id": "minecraft:glow_item_frame",
+                  "components": {
+                    "minecraft:custom_data": {"item_id":"diamond_hoe","custom_model_data":"1200001","loot_table":"geode:ruby_block"}
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }

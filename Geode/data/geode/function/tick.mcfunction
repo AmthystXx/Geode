@@ -6,3 +6,5 @@ execute if score blocks geode_features = on geode_features as @e[type=item_displ
 execute if score totems geode_features = on geode_features as @a run function geode:totems/tick
 
 execute if score bobbers geode_features = on geode_features as @a at @s run function geode:bobbers/tick
+
+function geode:spawner_blocks/tick

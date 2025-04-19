@@ -1,0 +1,2 @@
+execute as @e[type=item,name="Monster Spawner"] at @s if data entity @s Item.components."minecraft:custom_data".loot_table run function geode:spawner_blocks/blocks/break with entity @s Item.components."minecraft:custom_data"
+execute as @e[type=item,name="Monster Spawner"] at @s unless data entity @s Item.components."minecraft:custom_data".loot_table run kill @s
